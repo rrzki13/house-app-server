@@ -15,6 +15,15 @@ $ npm install
 # Create new env
 $ touch .env
 
+# Create Public Dir
+$ mkdir public
+$ mkdir public/category-icon
+$ mkdir public/house-thumbnail
+$ mkdir public/city-thumbnail
+
+# Compile typescript
+$ npm run ts
+
 # Run the app
 $ npm run dev
 ```
