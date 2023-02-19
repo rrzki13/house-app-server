@@ -12,11 +12,10 @@ $ cd house-app-server
 # Install dependencies
 $ npm install
 
-# Create new env
-$ touch .env
+# Copy env
+$ cp env .env
 
 # Create Public Dir
-$ mkdir public
 $ mkdir public/category-icon
 $ mkdir public/house-thumbnail
 $ mkdir public/city-thumbnail

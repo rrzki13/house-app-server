@@ -3,6 +3,7 @@ import multer from "multer";
 import config from "./config";
 import connection from "./db";
 import Category from "./routes/category";
+import City from "./routes/city";
 import Main from "./routes/files";
 import House from "./routes/house";
 
@@ -19,6 +20,7 @@ app.get("/", function (req, res, next) {
 
 app.use("/house", House)
 app.use("/category", Category)
+app.use("/city", City)
 app.use("/main", Main)
 
 // Handle errors

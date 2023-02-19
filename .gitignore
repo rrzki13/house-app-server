@@ -2,5 +2,6 @@ node_modules/
 dist/
 public/category-icon/
 public/house-thumbnail/
+public/city-thumbnail/
 package-lock.json
 .env

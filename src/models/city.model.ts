@@ -8,6 +8,7 @@ const CitySchema = new mongoose.Schema(
     },
     thumbnail: {
       type: String,
+      default: "city.jpg"
     },
   },
   { timestamps: true }
